@@ -64,8 +64,8 @@ function handleSelectedItem(event) {
     const alreadySelected = selectedItems.findIndex(item => {
         const itemFound = item == itemId
         return itemFound
-
     })
+    
     // Se ja estiver selecionado, tirar da seleção
     if (alreadySelected >= 0) {
         const filteredItems = selectedItems.filter(item => {
